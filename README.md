@@ -1,6 +1,6 @@
 # EZ SnowRunner
-[![MIT](https://img.shields.io/github/license/FuryAndRage/EZ-SnowRunner?style=for-the-badge)]()
-[![Python](https://img.shields.io/github/languages/top/FuryAndRage/EZ-SnowRunner?style=for-the-badge)](https://www.python.org/)
+[![MIT](https://img.shields.io/github/license/FuryAndRage/EZ-SnowRunner)]()
+[![Python](https://img.shields.io/github/languages/top/FuryAndRage/EZ-SnowRunner)](https://www.python.org/)
 
 
 
