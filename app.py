@@ -1,11 +1,9 @@
 import tkinter.ttk as ttk
 from tkinter import *
-from tkinter import filedialog
-from tkinter import messagebox
+from tkinter import messagebox, filedialog
 from PIL import ImageTk, Image
 import os
 import re
-
 
 class App:
     def __init__(self):
@@ -16,6 +14,7 @@ class App:
         self.root.resizable(False, False)
         self.running = True
         self.filedialog = StringVar()
+       
 
         self.sr_image = Image.open("sr.jpeg")
         self.sr_image = self.sr_image.resize((400, 200), Image.ANTIALIAS)
@@ -95,7 +94,7 @@ class App:
                     self.rank.set('')
                     self.experience.set('')
                     
-                    messagebox.showerror("File not found",f"{os.path.basename(self.filedialog)} is not a expected file! \n \nCompleteSave.data usually it is on 'C:\\Users\[user]\\Documents\\My Games\\SnowRunner\\base\\storage\\[userid]'")
+                    messagebox.showerror("File not found",f"{os.path.basename(self.filedialog)} is not a expected file! \n \nCompleteSave.data usually it is on 'C:\\Users\[user]\\Documents\\My Games\\SnowRunner\\base\\storage\\[ramdom key]'")
         else:
             with open('datfile', 'r') as dat:
                 for item in dat.readlines():
